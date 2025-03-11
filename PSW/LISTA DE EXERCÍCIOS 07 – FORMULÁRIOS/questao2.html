@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Gestão Acadêmica - Manutenção de Usuários</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+  <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+  <br>
+  
+  
+  <form action="#" method="post">
+    
+   
+    <label for="login">Login:</label><br>
+    <input type="text" id="login" name="login" required><br><br>
+    
+    
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha" name="senha" required>
+    <br><br><br>
+    
+   
+    <label for="status">Status:</label><br>
+    <select id="status" name="status" required>
+      <option value="inativo">Inativo</option>
+      <option value="ativo">Ativo</option>
+    </select>
+    <br><br><br><br>
+    
+   
+    <fieldset>
+        <legend><u>TIPO</u></legend>
+        
+            <input type="checkbox" id="tecnico" name="modulos" value="tecnico">
+            <label for="tecnico">tecnico</label>
+            
+            <input type="checkbox" id="professor" name="modulos" value="professor">
+            <label for="professor">professor</label>
+            
+            <input type="checkbox" id="aluno" name="modulos" value="aluno">
+            <label for="aluno">aluno</label>
+
+    </fieldset>
+  
+<br><br><br>
+
+<fieldset>
+    <legend><u>PERFIL</u></legend>
+
+        <input type="radio" id="convidado" name="modulos" value="convidado">
+        <label for="convidado">convidado</label>
+        
+        <input type="radio" id="administrador" name="modulos" value="administrador">
+        <label for="administrador">administrador</label>
+    
+</fieldset>
+
+<br><br><br>
+
+
+<fieldset>
+    <legend><u>OBSERVAÇÕES</u></legend>
+   <textarea id="observacoes" name="observacoes" rows="5" cols="40"></textarea>
+</fieldset>
+
+
+<br><br><br>
+
+    <fieldset>
+        <legend><u>MÓDULOS</u></legend>
+
+            <input type="checkbox" id="compras" name="modulos" value="compras">
+            <label for="compras">Compras</label>
+            
+            <input type="checkbox" id="biblioteca" name="modulos" value="biblioteca">
+            <label for="biblioteca">Bibioteca</label>
+            
+            <input type="checkbox" id="academico" name="modulos" value="academico">
+            <label for="academico">Acadêmico</label>
+
+            <input type="checkbox" id="documentacao" name="modulos" value="documentacao">
+            <label for="documentacao">Documentação</label>
+
+            <input type="checkbox" id="rh" name="modulos" value="rh">
+            <label for="rh">Recursos Humanos</label>
+
+    </fieldset>
+
+<br><br><br>
+
+            <input type="submit" value="cadastrar">
+            <input type="button" value="Excluir" onclick="alert('Função de exclusão não implementada.')">
+
+</form>
+  
+</body>
+</html>

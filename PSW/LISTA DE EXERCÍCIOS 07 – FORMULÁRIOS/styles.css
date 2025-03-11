@@ -1,0 +1,256 @@
+body{
+    background-color: #ffe2f8;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    text-align: center;
+    
+}
+
+input{
+    width: 200px;
+    border: 5px;
+    border-radius: 50px;
+    padding: 9px 20px;
+    text-align: center;
+
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+option{
+    border: 5px;
+    border-radius: 10px ;
+}
+
+select{
+    column-gap: normal;
+    width: 100px;
+    text-align: center;
+    border: 0px ;
+    border-radius: 20px;
+    
+}
+
+select:hover{
+    background-color: rgb(252, 215, 227);
+    transition: 0.5s ease;
+}
+
+textarea{
+    width: 290px;
+    border: 5px;
+    border-radius: 20px;
+    padding: 7px 10px;
+
+}
+
+fieldset{
+    
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    display: grid;                   
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 8px; 
+    cursor: pointer;  
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border: 5px;
+    border-radius: 20px;
+    padding: 7px 70px;
+}
+
+div.campo{
+    width:235px ;
+    align-items: center;
+    text-align: center;
+}
+
+div.campo1{
+   width: 470px;
+   align-items: center;
+   text-align: center;
+}
+
+div.opcoes{
+    width: 235px;
+    align-items: center;
+    text-align: center;
+}
+
+div.opcoes1{
+    width: 235px;
+    align-items: center;
+    text-align: center;
+}
+
+
+label[for="compras"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="biblioteca"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="academico"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="rh"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="tecnico"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="professor"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="aluno"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="convidado"]{
+    width: 100px;
+    text-align:left;
+}
+label[for="administrador"]{
+    width: 100px;
+    text-align:left;
+}
+
+legend{
+    background-color: pink;
+}
+
+ label[for="observacoes"]{
+    background-color: pink;
+}
+
+input[type="submit"]{
+    background-color: pink;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: palevioletred;
+}
+
+input[type="submit"]:hover{
+    background-color: palevioletred;
+    color: black;
+}
+
+input[type="button"]{
+    background-color: rgb(179, 179, 179);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: rgb(0, 0, 0);
+}
+
+input[type="button"]:hover{
+    background-color: rgb(221, 59, 62);
+    color: black;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+ 
+  thead td {
+    padding: 10px;
+  }
+
+  
+  .celula-azul-claro {
+    background-color: #ADD8E6; 
+    color: #000000;           
+    font-weight: bold;
+    text-align: center;
+  }
+
+ 
+  .celula-azul-escuro {
+    background-color: #00008B; 
+    color: #FFFFFF;            
+    text-align: center;
+  }
+
+ 
+  tbody td {
+    padding: 8px;
+    vertical-align: middle;
+  }
+
+  
+  label {
+    display: inline-block;
+    width: 90px; 
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: 200px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+
+  
+  .interesses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .interesses label {
+    width: auto; 
+    font-weight: normal;
+  }
+
+ 
+  .botao-enviar {
+    background-color: #00008B;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .botao-enviar:hover {
+    background-color: #3333aa; 
+  }
